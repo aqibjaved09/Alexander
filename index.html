@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Alexander Peters – Confident and Determined | Operations Specialist at Orbit Utilities | Positivity leads to Action. Based in London, UK." />
+  <title>Alexander Peters | Operations Specialist</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles-slim@2.12.0/tsparticles.slim.bundle.min.js"></script>
+</head>
+
+<body>
+
+  <!-- ===== LOADER ===== -->
+  <div id="loader">
+    <div class="loader-logo">ALEXANDER <span>PETERS</span></div>
+    <div class="loader-bar-wrap">
+      <div class="loader-bar"></div>
+    </div>
+  </div>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">
+        <span id="logoText"></span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#hero" class="active">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#strengths">SERVICES</a></li>
+        <li><a href="#experience">EXPERIENCE</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+      <a href="#contact" class="nav-cta">
+        <span>LET'S TALK</span>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M5 12h14M12 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </a>
+      <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <button class="dark-toggle" id="darkToggle" aria-label="Toggle dark mode">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M21 12.79A9 9 0 1111.21 3a7 7 0 109.79 9.79z" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="2" />
+          <path
+            d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+        </svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero">
+    <div id="hero-particles"></div>
+
+    <!-- vertical border lines -->
+    <div class="hero-vline hero-vline-l"></div>
+    <div class="hero-vline hero-vline-r"></div>
+
+    <div class="hero-center">
+
+      <!-- announcement badge -->
+      <a href="#strengths" class="hero-badge">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none">
+          <path
+            d="M11.017 2.814a1 1 0 011.966 0l1.051 5.558a2 2 0 001.594 1.594l5.558 1.051a1 1 0 010 1.966l-5.558 1.051a2 2 0 00-1.594 1.594l-1.051 5.558a1 1 0 01-1.966 0l-1.051-5.558a2 2 0 00-1.594-1.594l-5.558-1.051a1 1 0 010-1.966l5.558-1.051a2 2 0 001.594-1.594z"
+            stroke="#1e90ff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+        <span>Operations Specialist · Orbit Utilities</span>
+        <span class="hero-badge-divider"></span>
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none">
+          <path d="M5 12h14M13 6l6 6-6 6" stroke="#1e90ff" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" />
+        </svg>
+      </a>
+
+      <!-- main heading -->
+      <h1 class="hero-title">
+        Confident &amp; Determined.<br />
+        <span class="gradient-text">Building Teams That<br />Scale and Lead</span>
+      </h1>
+
+      <!-- sub text -->
+      <p class="hero-sub">
+        Positivity leads to Action. Based in <strong>London, UK</strong> specialising in<br />
+        CRM, Direct Sales &amp; High-Performance Team Building.
+      </p>
+
+      <!-- typing line -->
+      <p class="hero-typing-line">He is a <span id="typingText"></span><span class="typing-cursor">|</span></p>
+
+      <!-- buttons row -->
+      <div class="hero-btns">
+        <a href="#contact" class="btn-flow">
+          <svg class="btn-arr btn-arr-left" viewBox="0 0 24 24" fill="none">
+            <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+          <span class="btn-text">Book a Call</span>
+          <svg class="btn-arr btn-arr-right" viewBox="0 0 24 24" fill="none">
+            <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+          <span class="btn-circle"></span>
+        </a>
+        <a href="#experience" class="btn-flow btn-flow-outline">
+          <svg class="btn-arr btn-arr-left" viewBox="0 0 24 24" fill="none">
+            <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+          <span class="btn-text">View Experience</span>
+          <svg class="btn-arr btn-arr-right" viewBox="0 0 24 24" fill="none">
+            <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+          <span class="btn-circle"></span>
+        </a>
+      </div>
+
+      <!-- photo + stats row -->
+      <div class="hero-profile-row">
+        <div class="hero-photo-box">
+          <img src="2223-removebg-preview.png" alt="Alexander Peters" />
+        </div>
+        <div class="hero-profile-info">
+          <div class="hero-photo-badge">
+            <span class="badge-dot"></span> Available for Opportunities
+          </div>
+          <div class="hero-stats">
+            <div class="hero-stat">
+              <span class="stat-num">5+</span>
+              <span class="stat-label">Years Exp.</span>
+            </div>
+            <div class="hero-stat">
+              <span class="stat-num">3</span>
+              <span class="stat-label">Services</span>
+            </div>
+            <div class="hero-stat">
+              <span class="stat-num">100%</span>
+              <span class="stat-label">Client Focus</span>
+            </div>
+            <div class="hero-stat">
+              <span class="stat-num">London</span>
+              <span class="stat-label">Based in UK</span>
+            </div>
+          </div>
+          <div class="hero-info-card">
+            <div class="hero-info-row">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
+                <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z" stroke="#1e90ff" stroke-width="2" />
+                <circle cx="12" cy="10" r="3" stroke="#1e90ff" stroke-width="2" />
+              </svg>
+              <span>Battersea, London, UK</span>
+            </div>
+            <div class="hero-info-row">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
+                <rect x="2" y="7" width="20" height="14" rx="2" stroke="#1e90ff" stroke-width="2" />
+                <path d="M16 7V5a2 2 0 00-4 0v2" stroke="#1e90ff" stroke-width="2" />
+              </svg>
+              <span>Orbit Utilities · Operations</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Floating Caps - Right Side -->
+    <div class="hero-capsules">
+      <div class="hero-capsule">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10" />
+          <path d="M16 12l-4-4-4 4" />
+          <path d="M12 16V8" />
+        </svg>
+        CRM Strategy
+      </div>
+      <div class="hero-capsule">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="16 3 21 3 21 8" />
+          <line x1="4" y1="20" x2="21" y2="3" />
+          <polyline points="21 16 21 21 16 21" />
+          <line x1="15" y1="15" x2="21" y2="21" />
+          <line x1="4" y1="4" x2="9" y2="9" />
+        </svg>
+        Lead Generation
+      </div>
+    </div>
+
+    <!-- Featured Capsule Image -->
+    <div class="hero-capsule-img-wrap">
+      <img src="caps-removebg-preview.png" alt="One Form One Bill Capsule" class="hero-capsule-img" />
+    </div>
+  </section>
+
+  <!-- ===== LOGO TICKER (trusted by) ===== -->
+  <div class="logo-section">
+    <p class="logo-label">Trusted by <span>industry professionals</span></p>
+    <div class="logo-slider-wrap">
+      <div class="logo-slider">
+        <span>Orbit Utilities</span>
+        <span>Remora Service Group</span>
+        <span>Coworth Park</span>
+        <span>Woking FC</span>
+        <span>University of Winchester</span>
+        <span>LinkedIn Network</span>
+        <span>Orbit Utilities</span>
+        <span>Remora Service Group</span>
+        <span>Coworth Park</span>
+        <span>Woking FC</span>
+        <span>University of Winchester</span>
+        <span>LinkedIn Network</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== TICKER ===== -->
+  <div class="ticker-wrap">
+    <div class="ticker-track">
+      <span>&#9733; Client Relationships</span>
+      <span>&#9733; Operations Management</span>
+      <span>&#9733; Team Leadership &amp; Development</span>
+      <span>&#9733; High-Performance Culture</span>
+      <span>&#9733; Direct Sales</span>
+      <span>&#9733; Customer Relationship Management</span>
+      <span>&#9733; Team Building</span>
+      <span>&#9733; Business Networking</span>
+      <span>&#9733; LinkedIn Lead Generation</span>
+      <span>&#9733; Business Analysis</span>
+      <span>&#9733; Sustainable Working Environment</span>
+      <span>&#9733; Operational Excellence</span>
+      <span>&#9733; Client Relationships</span>
+      <span>&#9733; Operations Management</span>
+      <span>&#9733; Team Leadership &amp; Development</span>
+      <span>&#9733; High-Performance Culture</span>
+      <span>&#9733; Direct Sales</span>
+      <span>&#9733; Customer Relationship Management</span>
+      <span>&#9733; Team Building</span>
+      <span>&#9733; Business Networking</span>
+      <span>&#9733; LinkedIn Lead Generation</span>
+      <span>&#9733; Business Analysis</span>
+      <span>&#9733; Sustainable Working Environment</span>
+      <span>&#9733; Operational Excellence</span>
+    </div>
+  </div>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section bg-lightgray">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-left">
+          <div class="eyebrow-tag">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <rect x="3" y="3" width="18" height="18" rx="3" stroke="#8B2FC9" stroke-width="2" />
+              <path d="M9 12l2 2 4-4" stroke="#8B2FC9" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+            ABOUT US
+          </div>
+          <h2>We Are Providing All Types of <span class="purple">Operations Solutions</span></h2>
+          <h2 class="margin-bottom-sm">Confident and Determined <br />Built for <span class="purple">Operational
+              Excellence</span></h2>
+          <p>
+            Driving business growth through high-performance systems and the <strong>"One Form, One Bill"</strong>
+            philosophy simplifying utility management for UK tenants through streamlined processes and fixed monthly
+            billing.
+          </p>
+          <p>
+            With experience spanning operations coordination, CRM, direct sales, and strategic growth initiatives, Alex
+            builds collaborative environments where teams are empowered to excel and challenges are solved through
+            data-driven decision making.
+          </p>
+          <p>
+            His mission is clear: help businesses and people reach their true potential through structured systems,
+            relentless positivity, and growth through simplicity.
+          </p>
+          <a href="#contact" class="btn-flow">
+            <svg class="btn-arr btn-arr-left" viewBox="0 0 24 24" fill="none">
+              <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+            <span class="btn-text">GET STARTED</span>
+            <svg class="btn-arr btn-arr-right" viewBox="0 0 24 24" fill="none">
+              <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+            <span class="btn-circle"></span>
+          </a>
+          <!-- 2 Cards with House Pictures (Enlarged to cover more screen) -->
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 2.5rem;">
+            <div class="mini-card" style="padding: 0; overflow: hidden; border-radius: 20px; height: 380px;">
+              <img src="house1.jpg" alt="Property 1" style="width: 100%; height: 100%; object-fit: cover;" />
+            </div>
+            <div class="mini-card" style="padding: 0; overflow: hidden; border-radius: 20px; height: 380px;">
+              <img src="house2.avif" alt="Property 2" style="width: 100%; height: 100%; object-fit: cover;" />
+            </div>
+          </div>
+        </div>
+        <div class="about-right">
+          <div class="about-imgs-top">
+            <div class="img-wrap"><img src="images.jpg" alt="CRM" /></div>
+            <div class="img-wrap"><img src="orbit .jpg" alt="Orbit Services" /></div>
+          </div>
+          <div class="about-mini-cards">
+            <div class="mini-card" data-animate>
+              <div class="mini-icon">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <rect x="2" y="3" width="20" height="14" rx="2" stroke="#8B2FC9" stroke-width="2" />
+                  <path d="M8 21h8M12 17v4" stroke="#8B2FC9" stroke-width="2" stroke-linecap="round" />
+                </svg>
+              </div>
+              <h4>Operations &amp; CRM</h4>
+              <p>Driving customer relationship management, direct sales, and operational performance at Orbit Utilities.
+              </p>
+            </div>
+            <div class="mini-card" data-animate>
+              <div class="mini-icon">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="#8B2FC9" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </div>
+              <h4>Team Building &amp; Leadership</h4>
+              <p>Creating sustainable, high-performing teams through positive leadership and a strong company culture.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES / STRENGTHS ===== -->
+  <section id="strengths" class="section">
+    <div class="container">
+      <div class="eyebrow-tag centered">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <rect x="3" y="3" width="18" height="18" rx="3" stroke="#1e90ff" stroke-width="2" />
+          <path d="M9 12l2 2 4-4" stroke="#1e90ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+        OUR SERVICES
+      </div>
+      <h2 class="section-title centered">Our Core <span class="purple">Service Pillars</span></h2>
+
+      <div class="svc2-grid">
+
+        <!-- Card 1 -->
+        <div class="svc2-card" data-animate>
+          <div class="svc2-icon">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <rect x="2" y="7" width="20" height="14" rx="2" stroke="#1e90ff" stroke-width="2" />
+              <path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2" stroke="#1e90ff" stroke-width="2"
+                stroke-linecap="round" />
+              <path d="M12 12v4M10 14h4" stroke="#1e90ff" stroke-width="2" stroke-linecap="round" />
+            </svg>
+          </div>
+          <h3>Client Relationship Management</h3>
+          <p>Building and maintaining strong client relationships through trust, communication, and a genuine commitment
+            to delivering results.</p>
+          <a href="#contact" class="btn-flow btn-flow-sm"><svg class="btn-arr btn-arr-left" viewBox="0 0 24 24"
+              fill="none">
+              <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg><span class="btn-text">Get in Touch</span><svg class="btn-arr btn-arr-right" viewBox="0 0 24 24"
+              fill="none">
+              <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg><span class="btn-circle"></span></a>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="svc2-card" data-animate>
+          <div class="svc2-icon">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" stroke="#1e90ff" stroke-width="2"
+                stroke-linecap="round" />
+              <circle cx="9" cy="7" r="4" stroke="#1e90ff" stroke-width="2" />
+              <path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75" stroke="#1e90ff" stroke-width="2"
+                stroke-linecap="round" />
+            </svg>
+          </div>
+          <h3>Operations &amp; Team Management</h3>
+          <p>Coordinating business operations, analysing performance, and leading teams to achieve consistent,
+            measurable outcomes.</p>
+          <a href="#contact" class="btn-flow btn-flow-sm"><svg class="btn-arr btn-arr-left" viewBox="0 0 24 24"
+              fill="none">
+              <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg><span class="btn-text">Get in Touch</span><svg class="btn-arr btn-arr-right" viewBox="0 0 24 24"
+              fill="none">
+              <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg><span class="btn-circle"></span></a>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="svc2-card" data-animate>
+          <div class="svc2-icon">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M18 20V10M12 20V4M6 20v-6" stroke="#1e90ff" stroke-width="2.5" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </div>
+          <h3>Business Networking &amp; LinkedIn Lead Generation</h3>
+          <p>Generating new leads and expanding professional networks through strategic business networking events and
+            LinkedIn outreach.</p>
+          <a href="#contact" class="btn-flow btn-flow-sm"><svg class="btn-arr btn-arr-left" viewBox="0 0 24 24"
+              fill="none">
+              <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg><span class="btn-text">Get in Touch</span><svg class="btn-arr btn-arr-right" viewBox="0 0 24 24"
+              fill="none">
+              <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg><span class="btn-circle"></span></a>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="svc2-card" data-animate>
+          <div class="svc2-icon">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M12 20h9M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z" stroke="#1e90ff" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </div>
+          <h3>Direct Sales Strategy</h3>
+          <p>Driving revenue growth through targeted direct sales approaches, pipeline management, and high-conversion
+            customer engagement techniques.</p>
+          <a href="#contact" class="btn-flow btn-flow-sm"><svg class="btn-arr btn-arr-left" viewBox="0 0 24 24"
+              fill="none">
+              <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg><span class="btn-text">Get in Touch</span><svg class="btn-arr btn-arr-right" viewBox="0 0 24 24"
+              fill="none">
+              <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg><span class="btn-circle"></span></a>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="svc2-card" data-animate>
+          <div class="svc2-icon">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <circle cx="12" cy="12" r="10" stroke="#1e90ff" stroke-width="2" />
+              <path d="M12 6v6l4 2" stroke="#1e90ff" stroke-width="2" stroke-linecap="round" />
+            </svg>
+          </div>
+          <h3>High-Performance Culture</h3>
+          <p>Creating sustainable, high-performing teams through positive leadership, structured systems, and a strong
+            company culture built on trust.</p>
+          <a href="#contact" class="btn-flow btn-flow-sm"><svg class="btn-arr btn-arr-left" viewBox="0 0 24 24"
+              fill="none">
+              <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg><span class="btn-text">Get in Touch</span><svg class="btn-arr btn-arr-right" viewBox="0 0 24 24"
+              fill="none">
+              <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg><span class="btn-circle"></span></a>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="svc2-card" data-animate>
+          <div class="svc2-icon">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path
+                d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+                stroke="#1e90ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </div>
+          <h3>Business Analysis &amp; Growth</h3>
+          <p>Analysing business performance data, identifying growth opportunities, and implementing strategic
+            improvements for long-term operational success.</p>
+          <a href="#contact" class="btn-flow btn-flow-sm"><svg class="btn-arr btn-arr-left" viewBox="0 0 24 24"
+              fill="none">
+              <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg><span class="btn-text">Get in Touch</span><svg class="btn-arr btn-arr-right" viewBox="0 0 24 24"
+              fill="none">
+              <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg><span class="btn-circle"></span></a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ORBIT UTILITIES ===== -->
+  <section id="experience" class="section bg-lightgray">
+    <div class="container">
+      <div style="text-align: center; margin-bottom: 3.5rem;">
+        <h2 class="section-title centered" style="margin-bottom: 0.5rem;" data-animate>Orbit Utilities</h2>
+        <h3 style="font-size: 1.8rem; font-weight: 800; color: var(--white); margin-bottom: 1rem;" data-animate>
+          Simplifying UK Utilities</h3>
+        <p style="font-size: 1.15rem; font-weight: 700; color: var(--blue);" data-animate>One Form, One Bill.
+          Hassle-Free.</p>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem;">
+        <!-- Card 1 -->
+        <div class="mini-card" data-animate style="padding: 2.5rem; border-radius: 16px;">
+          <h4
+            style="font-size: 1.6rem; font-weight: 800; color: var(--white); margin-bottom: 1.5rem; border-bottom: 1px solid var(--card-border); padding-bottom: 1.2rem;">
+            For Agents:</h4>
+          <ul style="list-style: none; padding: 0; color: var(--muted); font-size: 1rem;">
+            <li style="margin-bottom: 1.25rem; display: flex; align-items: flex-start; gap: 0.75rem;">
+              <span style="color: var(--blue); font-weight: bold; font-size: 1.2rem; flex-shrink: 0;">✓</span>
+              <span style="line-height: 1.5;">Boost your profits! Earn £100-£200 per sign up.</span>
+            </li>
+            <li style="margin-bottom: 1.25rem; display: flex; align-items: flex-start; gap: 0.75rem;">
+              <span style="color: var(--blue); font-weight: bold; font-size: 1.2rem; flex-shrink: 0;">✓</span>
+              <span style="line-height: 1.5;">Effortless tenancy management.</span>
+            </li>
+            <li style="display: flex; align-items: flex-start; gap: 0.75rem;">
+              <span style="color: var(--blue); font-weight: bold; font-size: 1.2rem; flex-shrink: 0;">✓</span>
+              <span style="line-height: 1.5;">Move-in ready properties.</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="mini-card" data-animate style="padding: 2.5rem; border-radius: 16px;">
+          <h4
+            style="font-size: 1.6rem; font-weight: 800; color: var(--white); margin-bottom: 1.5rem; border-bottom: 1px solid var(--card-border); padding-bottom: 1.2rem;">
+            For Tenants.</h4>
+          <ul style="list-style: none; padding: 0; color: var(--muted); font-size: 1rem;">
+            <li style="margin-bottom: 1.25rem; display: flex; align-items: flex-start; gap: 0.75rem;">
+              <span style="color: var(--blue); font-weight: bold; font-size: 1.2rem; flex-shrink: 0;">✓</span>
+              <span style="line-height: 1.5;">Stress-free move-ins.</span>
+            </li>
+            <li style="margin-bottom: 1.25rem; display: flex; align-items: flex-start; gap: 0.75rem;">
+              <span style="color: var(--blue); font-weight: bold; font-size: 1.2rem; flex-shrink: 0;">✓</span>
+              <span style="line-height: 1.5;">All utilities sorted in one go.</span>
+            </li>
+            <li style="margin-bottom: 1.25rem; display: flex; align-items: flex-start; gap: 0.75rem;">
+              <span style="color: var(--blue); font-weight: bold; font-size: 1.2rem; flex-shrink: 0;">✓</span>
+              <span style="line-height: 1.5;">Transparent billing.</span>
+            </li>
+            <li style="display: flex; align-items: flex-start; gap: 0.75rem;">
+              <span style="color: var(--blue); font-weight: bold; font-size: 1.2rem; flex-shrink: 0;">✓</span>
+              <span style="line-height: 1.5;">Save time &amp; money</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Image Grid to replace career/orbit placeholders -->
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 2rem;">
+        <div style="border-radius: 14px; overflow: hidden; height: 250px;">
+          <img src="house1.jpg" alt="Orbit Utility Property" style="width: 100%; height: 100%; object-fit: cover;" />
+        </div>
+        <div style="border-radius: 14px; overflow: hidden; height: 250px;">
+          <img src="house2.avif" alt="Orbit Utility Property 2" style="width: 100%; height: 100%; object-fit: cover;" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS — RADAR ===== -->
+  <section id="skills" class="section">
+    <div class="container">
+      <div class="eyebrow-tag centered" data-animate>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <rect x="3" y="3" width="18" height="18" rx="3" stroke="#1e90ff" stroke-width="2" />
+          <path d="M9 12l2 2 4-4" stroke="#1e90ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+        EXPERTISE
+      </div>
+      <h2 class="section-title centered" data-animate>Core <span class="purple">Skills &amp; Expertise</span></h2>
+
+      <div class="radar-wrap">
+
+        <!-- Row 1 — top icons -->
+        <div class="radar-row radar-row-top">
+          <div class="radar-icon-box" data-animate>
+            <div class="radar-icon">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" stroke="#1e90ff" stroke-width="2"
+                  stroke-linecap="round" />
+                <circle cx="9" cy="7" r="4" stroke="#1e90ff" stroke-width="2" />
+                <path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75" stroke="#1e90ff" stroke-width="2"
+                  stroke-linecap="round" />
+              </svg>
+            </div>
+            <span>Client Relations</span>
+          </div>
+          <div class="radar-icon-box" data-animate>
+            <div class="radar-icon">
+              <svg viewBox="0 0 24 24" fill="none">
+                <rect x="2" y="7" width="20" height="14" rx="2" stroke="#1e90ff" stroke-width="2" />
+                <path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2" stroke="#1e90ff" stroke-width="2"
+                  stroke-linecap="round" />
+                <path d="M12 12v4M10 14h4" stroke="#1e90ff" stroke-width="2" stroke-linecap="round" />
+              </svg>
+            </div>
+            <span>CRM</span>
+          </div>
+          <div class="radar-icon-box" data-animate>
+            <div class="radar-icon">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M18 20V10M12 20V4M6 20v-6" stroke="#1e90ff" stroke-width="2.5" stroke-linecap="round" />
+              </svg>
+            </div>
+            <span>Direct Sales</span>
+          </div>
+        </div>
+
+        <!-- Middle row — radar center -->
+        <div class="radar-row radar-row-mid">
+          <div class="radar-icon-box" data-animate>
+            <div class="radar-icon">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="#1e90ff" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+            <span>Operations</span>
+          </div>
+
+          <!-- RADAR -->
+          <div class="radar-core" id="radarCore">
+            <div class="radar-sweep"></div>
+            <div class="radar-circle" style="--s:1"></div>
+            <div class="radar-circle" style="--s:2"></div>
+            <div class="radar-circle" style="--s:3"></div>
+            <div class="radar-circle" style="--s:4"></div>
+            <div class="radar-circle" style="--s:5"></div>
+            <div class="radar-circle" style="--s:6"></div>
+            <div class="radar-circle" style="--s:7"></div>
+            <div class="radar-circle" style="--s:8"></div>
+            <div class="radar-dot"></div>
+          </div>
+
+          <div class="radar-icon-box" data-animate>
+            <div class="radar-icon">
+              <svg viewBox="0 0 24 24" fill="none">
+                <circle cx="12" cy="12" r="10" stroke="#1e90ff" stroke-width="2" />
+                <path d="M12 8v4l3 3" stroke="#1e90ff" stroke-width="2" stroke-linecap="round" />
+              </svg>
+            </div>
+            <span>Team Building</span>
+          </div>
+        </div>
+
+        <!-- Row 3 — bottom icons -->
+        <div class="radar-row radar-row-bot">
+          <div class="radar-icon-box" data-animate>
+            <div class="radar-icon">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+                  stroke="#1e90ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+            <span>Business Analysis</span>
+          </div>
+          <div class="radar-icon-box" data-animate>
+            <div class="radar-icon">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
+                  stroke="#1e90ff" stroke-width="2" stroke-linejoin="round" />
+                <circle cx="4" cy="4" r="2" stroke="#1e90ff" stroke-width="2" />
+              </svg>
+            </div>
+            <span>LinkedIn</span>
+          </div>
+          <div class="radar-icon-box" data-animate>
+            <div class="radar-icon">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="#1e90ff" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+            <span>Customer Service</span>
+          </div>
+        </div>
+
+        <!-- Bottom line -->
+        <div class="radar-bottom-line"></div>
+      </div>
+
+      <div class="btn-center" data-animate>
+        <a href="#contact" class="btn-flow">
+          <svg class="btn-arr btn-arr-left" viewBox="0 0 24 24" fill="none">
+            <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+          <span class="btn-text">Explore Full Expertise</span>
+          <svg class="btn-arr btn-arr-right" viewBox="0 0 24 24" fill="none">
+            <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+          <span class="btn-circle"></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EDUCATION ===== -->
+  <section id="education" class="section bg-lightgray">
+    <div class="container">
+      <div class="eyebrow-tag centered" data-animate>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <rect x="3" y="3" width="18" height="18" rx="3" stroke="#1e90ff" stroke-width="2" />
+          <path d="M9 12l2 2 4-4" stroke="#1e90ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+        EDUCATION
+      </div>
+      <h2 class="section-title centered" data-animate>Academic <span class="purple">Background</span></h2>
+      <div class="edu-card" data-animate>
+        <div class="edu-icon">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M22 10v6M2 10l10-5 10 5-10 5z" stroke="white" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" />
+            <path d="M6 12v5c3.33 2 8.67 2 12 0v-5" stroke="white" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </div>
+        <div class="edu-body">
+          <h3>University of Winchester</h3>
+          <p class="edu-degree">Bachelor of Arts (BA) Business Management with Enterprise &amp; Innovation</p>
+          <p class="edu-year">2020 – 2023 · Business Management</p>
+          <p>Studied business strategy, enterprise thinking, and innovation management — building the analytical and
+            leadership foundations that directly inform Alexander's approach to operational excellence and team
+            development.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PHILOSOPHY ===== -->
+  <section class="section philosophy-section">
+    <div class="container">
+      <div class="philosophy-inner">
+        <div class="phil-quote">"</div>
+        <blockquote>Don't just be alive live life like it matters, because it does. My mindset is set on changing the
+          way businesses think, act, and operate, so we can all reach our true potential. Positivity leads to Action.
+          Simple as that.</blockquote>
+        <cite>Alexander Peters · Confident and Determined | Operations Specialist at Orbit Utilities</cite>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="eyebrow-tag centered" data-animate>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <rect x="3" y="3" width="18" height="18" rx="3" stroke="#1e90ff" stroke-width="2" />
+          <path d="M9 12l2 2 4-4" stroke="#1e90ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+        GET IN TOUCH
+      </div>
+      <h2 class="section-title centered" data-animate>Let's <span class="purple">Connect</span></h2>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path
+                  d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"
+                  fill="#1e90ff" />
+              </svg></div>
+            <div><strong>Location</strong><span>London, United Kingdom</span></div>
+          </div>
+          <a href="https://www.linkedin.com/in/alexcharlespeters/" target="_blank" rel="noopener noreferrer"
+            class="contact-item">
+            <div class="contact-icon"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
+                  stroke="#1e90ff" stroke-width="1.8" stroke-linejoin="round" />
+                <circle cx="4" cy="4" r="2" stroke="#1e90ff" stroke-width="1.8" />
+              </svg></div>
+            <div><strong>LinkedIn</strong><span>View Profile</span></div>
+          </a>
+        </div>
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group"><label for="name">Full Name</label><input type="text" id="name" name="name"
+                placeholder="Your name" required autocomplete="name" /></div>
+            <div class="form-group"><label for="email">Email Address</label><input type="email" id="email" name="email"
+                placeholder="your@email.com" required autocomplete="email" /></div>
+          </div>
+          <div class="form-group"><label for="subject">Subject</label><input type="text" id="subject" name="subject"
+              placeholder="How can I help?" required /></div>
+          <div class="form-group"><label for="message">Message</label><textarea id="message" name="message" rows="5"
+              placeholder="Tell me about your project or opportunity..." required></textarea></div>
+          <button type="submit" class="btn-flow btn-flow-full">
+            <svg class="btn-arr btn-arr-left" viewBox="0 0 24 24" fill="none">
+              <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+            <span class="btn-text">Send Message</span>
+            <svg class="btn-arr btn-arr-right" viewBox="0 0 24 24" fill="none">
+              <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+            <span class="btn-circle"></span>
+          </button>
+          <p class="form-success" id="formSuccess" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-logo">
+        <svg width="24" height="24" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+          <path d="M4 24L14 4l10 20" stroke="#8B2FC9" stroke-width="2.5" stroke-linecap="round"
+            stroke-linejoin="round" />
+          <path d="M8 17h12" stroke="#8B2FC9" stroke-width="2.5" stroke-linecap="round" />
+        </svg>
+        <span>ALEXANDER <strong>PETERS</strong></span>
+      </div>
+      <p>&copy; 2026 Alexander Peters. Operations Specialist · London, UK</p>
+    </div>
+  </footer>
+
+  <!-- LIGHTBOX -->
+  <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <button class="lightbox-close" aria-label="Close">&times;</button>
+    <img id="lightboxImg" src="" alt="" />
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
