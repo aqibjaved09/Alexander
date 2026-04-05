@@ -963,11 +963,17 @@ p  { color: var(--muted); font-size: .93rem; line-height: 1.7; }
 
 /* responsive */
 @media (max-width: 640px) {
-  .radar-row { flex-wrap: wrap; justify-content: center; gap: .75rem; }
-  .radar-row-mid { gap: 1.5rem; }
-  .radar-core { width: 160px; height: 160px; }
-  .radar-sweep { width: 80px; }
-  .radar-circle { width: calc(var(--s) * 19px); height: calc(var(--s) * 19px); }
+  .radar-row { flex-wrap: nowrap; justify-content: center; gap: 0.25rem; width: 100%; padding: 0 0.5rem; }
+  .radar-icon-box { flex: 1; min-width: 0; max-width: 100px; }
+  .radar-icon-box span { font-size: 0.68rem; white-space: normal; line-height: 1.1; display: block; margin-top: 4px; }
+  .radar-icon { width: 42px; height: 42px; margin: 0 auto; }
+  .radar-icon svg { width: 18px; height: 18px; }
+  .radar-row-mid { gap: 0.5rem; }
+  .radar-core { width: 130px; height: 130px; }
+  .radar-sweep { width: 65px; }
+  .radar-circle { width: calc(var(--s) * 15px); height: calc(var(--s) * 15px); }
+  
+  .edu-degree { font-size: 0.85rem; padding: 0 10px; word-break: break-word; }
 }
 
 /* ===== EDUCATION ===== */
@@ -1039,6 +1045,16 @@ cite { font-size: .85rem; color: var(--blue); font-style: normal; font-weight: 6
   .contact-grid { grid-template-columns: 1fr; gap: 2rem; }
 }
 @media (max-width: 640px) {
+  .edu-card {
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem 1.5rem;
+    align-items: center;
+    text-align: center;
+  }
+  .edu-icon {
+    margin-bottom: 0.5rem;
+  }
   .nav-links {
     display: none; flex-direction: column; position: absolute;
     top: 100%; left: 0; right: 0;
